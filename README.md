@@ -64,7 +64,7 @@ Get Random UUIDs
 
 The full request to generate a random UUID can look like this:
 
-http://localhost:8080/UUID?value=10
+http://localhost:8080/?value=10
 
 # How to use this API for your own backend
 
