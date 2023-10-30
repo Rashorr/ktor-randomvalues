@@ -6,7 +6,7 @@ This section provides a short introduction
 and shows which steps are necessary to run the project locally in order to start a test query.
 
 # Install the Project
-To clone and run this application, you'll need [Git](https://git-scm.com)
+To clone and run this application, you'll need to install Git [Git](https://git-scm.com)
 
 ```bash
 # Clone this repository
@@ -71,7 +71,7 @@ http://localhost:8080/?value=10
 In this example, a Ktor client is used to use the API. 
 A detailed description of the setup of a ktor client can be found here: [Ktor-Client](https://ktor.io/docs/getting-started-ktor-client.html)
 
-Create a client within the within the Main.kt file:
+Create a client within the Main.kt file:
 ```kotlin
 suspend fun main() {
     val client = HttpClient(CIO){
