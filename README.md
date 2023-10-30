@@ -6,7 +6,7 @@ This section provides a short introduction
 and shows which steps are necessary to run the project locally in order to start a test query.
 
 # Install the Project
-To clone and run this application, you'll need to install Git [Git](https://git-scm.com)
+To clone and run this application, you'll need to install [Git](https://git-scm.com)
 
 ```bash
 # Clone this repository
