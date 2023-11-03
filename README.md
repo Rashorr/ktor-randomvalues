@@ -18,7 +18,7 @@ Set the host and port in the application.kt as desired. Then start the applicati
 
 Open Postman or your Browser and perform a get request to the following URL: 
 
-http://localhost:{yourPort}/?r1=10&r2=20
+http://localhost:{yourPort}/NUM?r1=10&r2=20
 
 This request generates a random number from the range 10 to 20
 
@@ -42,7 +42,9 @@ Get Random Numbers
 
 The full request to generate a random number can look like this: 
 
-http://localhost:8080/?r1=10&r2=20
+http://localhost:8080/NUM?r1=10&r2=20
+
+If all parameters are omitted, default values are used.
 
 Get Random Strings
 
@@ -54,7 +56,9 @@ Get Random Strings
 
 The full request to generate a random string can look like this:
 
-http://localhost:8080/?length=10&charset=sdkjhfskjfhsdfkjh&value=4
+http://localhost:8080/STR?length=10&charset=sdkjhfskjfhsdfkjh&value=4
+
+If all parameters are omitted, default values are used.
 
 Get Random UUIDs
 
@@ -64,7 +68,7 @@ Get Random UUIDs
 
 The full request to generate a random UUID can look like this:
 
-http://localhost:8080/?value=10
+http://localhost:8080/UUID?value=10
 
 # How to use this API for your own backend
 
